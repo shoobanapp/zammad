@@ -2,10 +2,10 @@
 	font-family: 'IRANSansX';
 	font-style: normal;
 	font-weight: 100;
-	src: url('fonts/IRANSansX-thin.eot');
-	src: url('fonts/IRANSansX-thin.woff') format('woff'),   
-	url('fonts/IRANSansX-thin.woff2') format('woff2'),
-	url('fonts/IRANSansX-thin.ttf') format('truetype');
+	src: url('fonts/IRANSansX-Thin.eot');
+	src: url('fonts/IRANSansX-Thin.woff') format('woff'),   
+	url('fonts/IRANSansX-Thin.woff2') format('woff2'),
+	url('fonts/IRANSansX-Thin.ttf') format('truetype');
 
 }
 @font-face {
