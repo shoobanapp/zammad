@@ -81,7 +81,12 @@ html {
 }
 
 body {
-  font-family: IRANSansX;
+  font-family: "IRANSansX";
+			font-feature-settings: "kern" on, "liga" on, "calt" on;
+			-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+			-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+			-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+			-o-font-feature-settings: "kern" on, "liga" on, "calt" on;
   line-height: 1.45;
   font-weight: normal;
   background: hsl(210,14%,97%);
