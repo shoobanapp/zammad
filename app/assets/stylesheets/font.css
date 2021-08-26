@@ -83,9 +83,9 @@
 	font-style: normal;
 	font-weight: normal;
 	src: url('fonts/IRANSansX-Regular.eot');
-	src: url('fonts/IRANSansX-thin.woff') format('woff'),   
-	url('fonts/IRANSansX-thin.woff2') format('woff2'),
-	url('fonts/IRANSansX-thin.ttf') format('truetype');
+	src: url('fonts/IRANSansX-Regular.woff') format('woff'),   
+	url('fonts/IRANSansX-Regular.woff2') format('woff2'),
+	url('fonts/IRANSansX-Regular.ttf') format('truetype');
 }
 
 
