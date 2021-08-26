@@ -1,0 +1,13 @@
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+/tmp/d20210326-57-12xlhac/opt/zammad/vendor/ruby-2.6.6/bin/ruby -I /tmp/d20210326-57-12xlhac/opt/zammad/vendor/ruby-2.6.6/lib/ruby/2.6.0 -r ./siteconf20210326-1364-1kao021.rb extconf.rb
+creating Makefile
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,35 @@
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/rszr-0.5.2/ext/rszr
+/tmp/d20210326-57-12xlhac/opt/zammad/vendor/ruby-2.6.6/bin/ruby -I /tmp/d20210326-57-12xlhac/opt/zammad/vendor/ruby-2.6.6/lib/ruby/2.6.0 -r ./siteconf20210326-1364-11r92mn.rb extconf.rb
+checking for Imlib2.h... yes
+checking for imlib_set_cache_size() in -lImlib2... yes
+creating Makefile
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/rszr-0.5.2/ext/rszr
+make "DESTDIR=" clean
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/rszr-0.5.2/ext/rszr
+make "DESTDIR="
+compiling errors.c
+errors.c: In function ‘rszr_raise_error_with_message’:
+errors.c:48:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   48 |   VALUE rb_error = rb_exc_new2(rb_error_class, sRszrErrorMessages[error_index]);
+      |   ^~~~~
+errors.c: In function ‘rszr_raise_load_error’:
+errors.c:52:6: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+   52 | void rszr_raise_load_error(Imlib_Load_Error error)
+      |      ^~~~~~~~~~~~~~~~~~~~~
+errors.c: In function ‘rszr_raise_save_error’:
+errors.c:57:6: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+   57 | void rszr_raise_save_error(Imlib_Load_Error error)
+      |      ^~~~~~~~~~~~~~~~~~~~~
+errors.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling image.c
+compiling rszr.c
+linking shared-object rszr/rszr.so
+
+current directory: /tmp/d20210326-57-12xlhac/opt/zammad/vendor/bundle/ruby/2.6.0/gems/rszr-0.5.2/ext/rszr
+make "DESTDIR=" install
+/bin/install -c -m 0755 rszr.so ./.gem.20210326-1364-1127g1k/rszr

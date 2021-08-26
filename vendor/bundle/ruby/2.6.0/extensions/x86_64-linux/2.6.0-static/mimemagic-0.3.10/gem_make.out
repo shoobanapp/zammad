@@ -1,0 +1,3 @@
+current directory: /tmp/d20210506-59-1sqlval/opt/zammad/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.3.10/ext/mimemagic
+/tmp/d20210506-59-1sqlval/opt/zammad/vendor/ruby-2.6.6/bin/ruby -rrubygems /tmp/d20210506-59-1sqlval/opt/zammad/vendor/bundle/ruby/2.6.0/gems/rake-12.3.3/exe/rake RUBYARCHDIR\=/tmp/d20210506-59-1sqlval/opt/zammad/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0-static/mimemagic-0.3.10 RUBYLIBDIR\=/tmp/d20210506-59-1sqlval/opt/zammad/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0-static/mimemagic-0.3.10
+mkdir -p /tmp/d20210506-59-1sqlval/opt/zammad/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0-static/mimemagic-0.3.10/mimemagic

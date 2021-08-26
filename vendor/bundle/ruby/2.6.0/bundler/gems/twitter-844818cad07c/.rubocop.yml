@@ -1,0 +1,61 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+Layout/AccessModifierIndentation:
+  EnforcedStyle: outdent
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Lint/Void:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 36
+  Exclude:
+    - spec/**/*.rb
+
+Metrics/BlockNesting:
+  Max: 2
+
+Metrics/LineLength:
+  AllowURI: true
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 10
+
+Metrics/ModuleLength:
+  Max: 150 # TODO: Lower to 100
+
+Metrics/ParameterLists:
+  Max: 4
+  CountKeywordArgs: true
+
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    map:      'collect'
+    map!:     'collect!'
+    reduce:   'inject'
+    find:     'detect'
+    find_all: 'select'
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: 'comma'
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: 'comma'
